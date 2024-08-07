@@ -15,11 +15,13 @@ namespace DunningSystem.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Title = "Home";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewBag.Title = "Dashboard";
             return View();
         }
 
