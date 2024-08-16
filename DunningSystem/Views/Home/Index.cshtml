@@ -1,7 +1,59 @@
 ﻿
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>Test</p>
+<div class="col-12 border-1 p-0">
+    <div class="row m-0">
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="customerCode" class="col-form-label-sm" style="min-width: 150px;">Customer Code</label>
+            <input type="text" class="form-control form-control-sm" id="customerCode" placeholder="Customer Code">
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="customerName" class="col-form-label-sm" style="min-width: 150px;">Customer Name</label>
+            <input type="text" class="form-control form-control-sm" id="customerName" placeholder="Customer Name">
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="companyStatus" class="col-form-label-sm" style="min-width: 150px;">Company Status</label>
+            <select class="select2 form-control form-control-sm w-100" id="companyStatus" name="companyStatus">
+                <option value="AL">Alabama</option>
+                <option value="WY">Wyoming</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="operatingStatus" class="col-form-label-sm" style="min-width: 150px;">Operating</label>
+            <select class="select2 form-control form-control-sm w-100" id="operatingStatus" name="operatingStatus">
+                <option value="01">Operating</option>
+                <option value="02">Non-operating</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="propertyName" class="col-form-label-sm" style="min-width: 150px;">Property Name</label>
+            <select class="select2 form-control form-control-sm w-100" id="propertyName" name="propertyName">
+                <option value="01">Alabama</option>
+                <option value="02">Wyoming</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="companyCode" class="col-form-label-sm" style="min-width: 150px;">Company Code</label>
+            <select class="select2 form-control form-control-sm w-100" id="companyCode" name="companyCode">
+                <option value="01">0001</option>
+                <option value="02">0002</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="businessPlace" class="col-form-label-sm" style="min-width: 150px;">Business Place</label>
+            <select class="select2 form-control form-control-sm w-100" id="businessPlace" name="businessPlace">
+                <option value="01">0001</option>
+                <option value="02">0002</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 p-2 d-md-inline-flex align-items-center">
+            <label for="debtType" class="col-form-label-sm" style="min-width: 150px;">Debt Type</label>
+            <input type="text" class="form-control form-control-sm" id="debtType" placeholder="Debt Type">
+        </div>
+        <div class="col-6 p-2 text-end">
+            <button type="button" class="btn btn-danger">Search</button>
+        </div>
+        <div class="col-6 p-2 text-start">
+            <button type="button" class="btn btn-danger">Clear</button>
+        </div>
+    </div>
 </div>
